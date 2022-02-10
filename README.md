@@ -9,3 +9,10 @@ After the configuration files are deployed, users can access the Jenkins master 
 ![Network Architecture](./docs/architecture.png)
 
 ## Deploying the Infrastructure
+After setting up AWS CLI and Terraform...
+1. Clone Repository
+2.   Change directories to the cloned git repository: `cd ../deploy_iac_tf_ansible/`
+3.  Initialize the Terraform backend: `terraform init`
+4.  Run Terraform's validate command to ensure that the code is valid: `terraform validate`
+5.  Run Terraform's plan command to see and validate the infrastructure that will be deployed: `terraform plan`
+6.  Run Terraform's apply command to deploy the infrastructure to your AWS environment: `terraform apply`
