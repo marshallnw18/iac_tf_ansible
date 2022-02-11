@@ -8,3 +8,8 @@ output "Jenkins-Worker-Public-IPs" {
     instance.id => instance.public_ip
   }
 }
+
+# Display Application Load Balancer DNS name in console output
+output "LB-DNS-NAME" {
+  value = aws_lb.application-lb.dns_name
+}
