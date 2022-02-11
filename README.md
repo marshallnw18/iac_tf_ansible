@@ -10,7 +10,11 @@ After the configuration files are deployed, users can access the Jenkins master 
 
 ## Deploying the Infrastructure
 After setting up AWS CLI and Terraform... 
+
 TODO: Make note on RSA 2048 Keypair generation. This Terraform plan assumes that the users already has an OpenSSH compatible keypair in place (see instances.tf) that will be used to login to their Jenkins EC2 instances. 
+
+TODO: Make note on Boto3 requirement for dynamic inventory queries
+
 1. Clone Repository
 2.  Change directories to the cloned git repository: `cd ../deploy_iac_tf_ansible/`
 3.  Initialize the Terraform backend: `terraform init`
