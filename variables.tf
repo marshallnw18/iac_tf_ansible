@@ -32,3 +32,9 @@ variable "webserver-port" {
   type    = number
   default = 80
 }
+
+variable "dns-name" {
+  type = string
+  # MUST BE MODIFIED TO MATCH EXISTING ROUTE53 ZONE
+  default = "foo"
+}

@@ -15,6 +15,8 @@ TODO: Make note on RSA 2048 Keypair generation. This Terraform plan assumes that
 
 TODO: Make note on Boto3 requirement for dynamic inventory queries
 
+TODO: Make a note about Route53 Hosted Zone or existing Domain Name for DNS Setup (variables.tf)
+
 1. Clone Repository
 2.  Change directories to the cloned git repository: `cd ../deploy_iac_tf_ansible/`
 3.  Initialize the Terraform backend: `terraform init`
